@@ -1,0 +1,10 @@
+fastapi==0.111.0
+uvicorn==0.29.0
+sentence-transformers==3.0.1
+faiss-cpu==1.8.0
+scikit-fuzzy==0.4.2
+scikit-learn==1.4.2
+numpy==1.26.4
+scipy==1.13.0
+networkx==3.3
+pydantic==2.7.1

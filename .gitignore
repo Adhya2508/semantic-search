@@ -1,0 +1,19 @@
+# Large model files — do not commit (gigabytes)
+models/
+*.bin
+*.npy
+*.npy
+
+# Dataset — too large for GitHub
+data/
+
+# Python environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
