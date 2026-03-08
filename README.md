@@ -266,7 +266,7 @@ curl -X DELETE http://localhost:8000/cache
 
 ---
 
-## Docker (Optional)
+## Docker 
 
 ```bash
 docker build -t semantic-search .
