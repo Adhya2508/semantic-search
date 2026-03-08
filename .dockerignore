@@ -23,7 +23,7 @@ hf_models/
 .cache/
 .huggingface/
 
-# OS junk
+# OS junks
 .DS_Store
 Thumbs.db
 
