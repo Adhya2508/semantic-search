@@ -1,0 +1,33 @@
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Git
+.git
+.gitignore
+
+# Environment
+.env
+venv
+.venv
+
+# Data (huge files)
+data/
+models/
+hf_models/
+
+# ML caches
+.cache/
+.huggingface/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Not needed for image
+notebooks/
+datasets/
+
