@@ -18,7 +18,7 @@ RUN apt-get update && apt-get install -y \
 # Upgrade pip first (important for large wheels like numpy)
 RUN pip install --upgrade pip
 
-# Copy requirements first (better caching)
+# Copy the requirements first (better caching)
 COPY requirements.txt .
 
 # Install python dependencies with retries and long timeout
